@@ -12,6 +12,8 @@
 
 ### 硬件信息
 
+英伟达硬件支持，以及软件支持 *CUDA + cuDNN*。 
+
 *运行命令: `nvcc --version`*
 
 ```shell

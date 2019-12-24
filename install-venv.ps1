@@ -19,4 +19,5 @@ python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pip -U
 python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple tensorflow==1.10.0 tensorflow-gpu==1.10.0 pillow requests
 
 # 可选的，单文件打包工具实现
-python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pyinstaller
+# 由于 pyinstaller 打包工具下 TensorFlow 下支持不佳，遂删除对其的支持
+# python -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pyinstaller
