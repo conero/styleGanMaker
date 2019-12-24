@@ -23,6 +23,10 @@ Cuda compilation tools, release 9.0, V9.0.176
 
 
 
+- **cudnn**  *v7.4.1.5*
+
+
+
 ### 软件包信息
 
 - **python**             *3.6*
