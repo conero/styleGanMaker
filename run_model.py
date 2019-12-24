@@ -77,7 +77,7 @@ def execute_model(model_path, **params):
     if 'out-dir' in params:
         result_dir += params['out-dir']
     else:
-        result_dir += os.path.basename(result_dir)
+        result_dir += os.path.basename(model_path)
 
     os.makedirs(result_dir, exist_ok=True)
     os.makedirs(result_dir + '/generate_code', exist_ok=True)
